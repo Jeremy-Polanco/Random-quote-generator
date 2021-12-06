@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: 'raleway';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-button {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    align-self: flex-end;
+    margin-right: 127px;
+    margin-top: 20px;
+    color: rgba(79, 79, 79, 1);
+    padding-bottom: 100px;
+    
+}
+
+.random-quote-button {
+    background: transparent;
+    border:none;
+    cursor: pointer;
+
+}
+
+.quote-text{
+    width: 614px;
+    align-self: center;
+    color: rgba(0, 0, 0, 1);
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 500;
+}
+
+.vertical-line{
+    border-left: rgba(247, 223, 148, 1) 8px solid;
+    padding-left: 99px;
+}
+
+.author-quote{
+    color: rgba(79, 79, 79, 1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.18px;
+    margin-left: 86px;
+    margin-top: 109px;
+    padding-top: 50px;
+    padding-left:29px;
+    width: 652px;
+    height: 151px;
+    position: relative;
+    
+}
+.author-quote:hover{
+    background: rgba(51, 51, 51, 1);
+    color: #F2F2F2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.author-quote .industry{
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+    line-height: 16.44px;
+    padding-top: 8px;
+    padding-bottom: 100px;
+}
+
+.arrow-icon{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+.strong-text{
+    font-weight: 700;
+}
+
+.footer{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 24px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+
+}
+
+.hide{
+    display: none;
+}
+
+.quote-container{ 
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+
+}
+
+.quote-container h1{
+    margin-left: 107px;
+
+
+}
+
+@media (max-width:670px){
+
+    .quote-container h1{
+        margin:0;
+        margin-left: 39px;
+    }
+    .quote-text{
+        width:80vw;
+    }
+
+    .vertical-line{
+        padding-left: 6vh;
+    }
+
+    .random-button{
+        margin:0;
+        padding:0;
+        padding-bottom: 65px;
+        margin-right: 65px;
+        margin-top: 25px; 
+
+    }
+
+    .author-quote{
+        margin:0;
+        margin-top: 80px;
+        width: 80vw;
+    }
+}
+
