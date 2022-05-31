@@ -37,10 +37,10 @@
 
 ## Features
 
-[x] - User story: I can see a random quote\
-[x] - User story: I generate a new random quote
-[x] - User story: When I select quote author, I can see a list of quotes from them
-[x] - User story: I can see quote genre under the author
+- [x]  User story: I can see a random quote
+- [x]  User story: I generate a new random quote
+- [x]  User story: When I select quote author, I can see a list of quotes from them
+- [x]  User story: I can see quote genre under the author
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) was to build an application to complete the given user stories.
 
