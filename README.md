@@ -37,8 +37,6 @@
 
 ## Features
 
-
-
 [x] User story: I can see a random quote
 [x] User story: I generate a new random quote
 [x] User story: When I select quote author, I can see a list of quotes from them
